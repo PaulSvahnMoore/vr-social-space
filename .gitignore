@@ -73,3 +73,18 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Ignore specific files in StreamingAssets (but not all future files)
+# Replace these with the actual file names causing issues
+/[Aa]ssets/[Ss]treamingAssets/BehaviorAssets
+/[Aa]ssets/[Ss]treamingAssets/Oculus
+
+# Ignore 'Avatar2' in the Oculus directory
+/[Aa]ssets/Oculus/Avatar2
+/[Aa]ssets/Oculus/Avatar2.meta
+/[Aa]ssets/Oculus/Avatar2_SampleAssets
+/[Aa]ssets/Oculus/Avatar2_SampleAssets.meta
+
+# Ignore the Meta Avatars SDK sample folder and its meta file
+/[Aa]ssets/Samples/Meta Avatars SDK/
+/[Aa]ssets/Samples/Meta Avatars SDK.meta
