@@ -48,6 +48,8 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+*TempAssembly.dll
+
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -76,8 +78,7 @@ crashlytics-build.properties
 
 # Ignore specific files in StreamingAssets (but not all future files)
 # Replace these with the actual file names causing issues
-/[Aa]ssets/[Ss]treamingAssets/BehaviorAssets
-/[Aa]ssets/[Ss]treamingAssets/Oculus
+/[Aa]ssets/[Ss]treamingAssets
 
 # Ignore 'Avatar2' in the Oculus directory
 /[Aa]ssets/Oculus/Avatar2
